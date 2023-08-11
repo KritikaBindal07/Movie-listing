@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+body {
+    height: 100vh;
+    background: linear-gradient(#000000 50%, #ffb92a 50%);
+}  
+.container {
+    font-size: 16px;
+    width: 90vw;
+    max-width: 37.5em;
+    padding: 1.5em 1.8em;
+    background-color: #201f28;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 0.6em;
+    box-shadow: 1.2em 2em 3em rgba(0, 0, 0, 0.2);
+  }
+
+  #movie-name{
+    border: 3px solid gray;
+    border-radius: 5px;
+    padding: 0.5rem 7rem;
+  }
+
+  #search-btn{
+    background-color: #ffb92a;
+    padding: 0.6rem 2rem;
+    border-radius: 5px;
+    margin-left: 1rem;
+  }
+
+  .movie-info{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .poster{
+    height:20rem;
+  }
+
+  .title{
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin: auto;
+    
+    
+    
+  }
+
+  .title-div{
+    margin-top: 1rem;
+    display: flex;
+    width: 100%;
+   
+    
+  }
+
+  .rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 0.6em;
+    color: white;
+    margin: 0.8em 0 0.9em 0;
+  }
+  .rating img {
+    width: 1.2em;
+  }
+
+  .details{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap:5%;
+    color: rgb(215, 200, 200);
+    margin-top: 1rem;
+   
+  }
+  .msg {
+    text-align: center;
+    
+  }
+
+  .margin{
+    color: rgb(215, 200, 200);
+    margin-top: 0.5rem; 
+
+    
+    display: flex;
+    width: 100%;
+    
+  }
+  .error{
+    color: aliceblue;
+   
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .h3{
+    color: rgb(215, 200, 200);
+    margin-top: 1rem; 
+    margin-left: 1rem;
+
+  }
+
+  .para{
+    margin-left: 1rem;
+    font-size: 15px;
+  }
+
+  .genre {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    color: rgb(211, 203, 203);
+  }
+
+  .genre div {
+    border: 1px solid #a0a0a0;
+    font-size: 0.75em;
+    padding: 0.4em 1.6em;
+    border-radius: 0.4em;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+  }
+  
