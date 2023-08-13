@@ -1,0 +1,1 @@
+/api/* http://www.omdbapi.com/?t=${movie}&apikey=${key}`:splat 200! 

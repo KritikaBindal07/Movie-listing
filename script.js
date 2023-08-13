@@ -5,7 +5,7 @@ let result = document.getElementById("result");
 let getMovie = async () => {
   let movie = movieNameInput.value;
   try {
-    let url = `http://www.omdbapi.com/?t=${movie}&apikey=${key}`;
+    let url = `https://dancing-hummingbird-71b6d6.netlify.app/?t=${movie}&apikey=${key}`;
 
     let response = await fetch(url);
 
